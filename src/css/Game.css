@@ -1,3 +1,19 @@
 .game-title {
+  text-align: center;
   font-size: 30px;
+  height: 40px;
+}
+
+.game-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 80px);
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  background-color: #dddddd;
 }

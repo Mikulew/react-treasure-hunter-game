@@ -1,13 +1,14 @@
 import React from 'react';
 import GameHeader from './components/GameHeader';
-import './css/App.css';
+import GameContainer from './components/GameContainer';
 import './css/Game.css';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <GameHeader />
-    </div>
+      <GameContainer />
+    </>
   );
 }
 
